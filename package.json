@@ -9,17 +9,21 @@
     "deploy": "nuxthub deploy",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.15.0",
     "@nuxthub/core": "^0.3.11",
+    "drizzle-orm": "^0.33.0",
     "nuxt": "^3.11.1"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "drizzle-kit": "^0.24.2",
     "eslint": "^8.57.0",
     "vue-tsc": "^2.0.7",
-    "wrangler": "^3.39.0"
+    "wrangler": "^3.41.0"
   }
 }

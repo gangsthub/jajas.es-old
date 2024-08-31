@@ -1,3 +1,6 @@
 <template>
-  <header>Jajas.es</header>
+  <header class="flex justify-between">
+    <p>Jajas.es</p>
+    <AddPostButton />
+  </header>
 </template>

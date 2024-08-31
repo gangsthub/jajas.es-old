@@ -8,6 +8,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
     // Vue
     'vue/multi-word-component-names': 0,
+    'vue/html-self-closing': 0,
     'vue/max-attributes-per-line': [
       'warn',
       {
